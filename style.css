@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR|Quattrocento+Sans');
+table{
+  border-spacing: 0;
+}
+td img{
+  width:400px;
+}
+tr th{
+  display:none;
+}
+tr{
+  border:none;
+}
+tr:nth-child(odd){
+}
+tr:hover{
+  color:#2f3542;
+  background-color:#ecf0f1;
+  border:12px solid #000;
+}
+tr td{
+  padding:20px;
+  margin:0;
+}
+td p,time{
+  font-size: 1em;
+  color:#2d3436;
+  justify-content:justify;
+}
+p{
+  line-height: 1.6;
+  text-align: justify;
+}
+td h3{
+  font-family: 'Noto Serif KR', sans-serif;
+  color:#2d3436;
+}
