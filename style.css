@@ -16,7 +16,6 @@ tr:nth-child(odd){
 tr:hover{
   color:#2f3542;
   background-color:#ecf0f1;
-  border:12px solid #000;
 }
 tr td{
   padding:20px;
@@ -24,8 +23,9 @@ tr td{
 }
 td p,time{
   font-size: 1em;
+
   color:#2d3436;
-  justify-content:justify;
+  text-align: justify;
 }
 p{
   line-height: 1.6;
@@ -34,4 +34,23 @@ p{
 td h3{
   font-family: 'Noto Serif KR', sans-serif;
   color:#2d3436;
+}
+
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px){
+table, td, tr, th{
+  display:block;
+}
+tr{
+  padding:10px;
+}
+td img{
+  width:100%;
+}
+h3{
+  text-align:center;
+  margin:0;
+  font-size:1.5em;
+}
 }
