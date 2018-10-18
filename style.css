@@ -1,56 +1,156 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR|Quattrocento+Sans');
-table{
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Alice');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+table {
   border-spacing: 0;
+  margin: 50px;
 }
-td img{
-  width:400px;
-}
-tr th{
-  display:none;
-}
-tr{
-  border:none;
-}
-tr:nth-child(odd){
-}
-tr:hover{
-  color:#2f3542;
-  background-color:#ecf0f1;
-}
-tr td{
-  padding:20px;
-  margin:0;
-}
-td p,time{
-  font-size: 1em;
 
-  color:#2d3436;
+header {
+  position: relative;
+}
+
+td img {
+  width: 400px;
+}
+
+tr th {
+  display: none;
+}
+
+tr {
+  border: none;
+}
+
+tr:hover {
+  color: #2f3542;
+  background-color: #ecf0f1;
+}
+
+tr td {
+  padding: 20px;
+  margin: 0;
+}
+
+td p, time {
+  font-size: 1em;
+  color: #2d3436;
   text-align: justify;
 }
-p{
+
+p {
   line-height: 1.6;
   text-align: justify;
 }
-td h3{
+
+td h3 {
   font-family: 'Noto Serif KR', sans-serif;
-  color:#2d3436;
+  color: #2d3436;
 }
 
-@media
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px){
-table, td, tr, th{
-  display:block;
+nav ul {
+  text-align: left;
 }
-tr{
-  padding:10px;
+
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin: 10px;
 }
-td img{
+
+li a {
+  font-size: 1em;
+  text-decoration: none;
+  color: #575757;
+}
+
+li a:hover {
+  color: #000;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+}
+.wrapper img{
   width:100%;
 }
-h3{
-  text-align:center;
-  margin:0;
+.wrapper-text, .wrapper-image {
+  width: 50%;
+}
+
+.wrapper-text {
+  margin: auto;
+}
+
+.wrapper-text p {
+  font-family: "Oswald", sans-serif;
+  font-size: 3em;
+  width: 60%;
+  margin: auto;
+}
+
+.wrapper-text span {
+  line-height: 1;
+  font-size: 1em;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.webd {
+  font-family: Raleway, sans-serif;
+}
+
+.and {
+  font-size: 1em;
+  font-family: "Great Vibes", cursive;
+}
+.aboutme{
+  color:#525252;
+  margin:auto;
+  padding:30px;
+  width:80%;
   font-size:1.5em;
 }
+.aboutme p{
+}
+.aboutme a{
+  color:#525252;
+}
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  .wrapper-image{
+    width:100%;
+  }
+  .wrapper img{
+    margin-top:20px;
+    box-sizing: border-box;
+    width:100%;
+  }
+  .wrapper{
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  table, td, tr, th {
+    display: block;
+  }
+  tr {
+    padding: 10px;
+  }
+  tr td {
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  td img {
+    width: 100%;
+  }
+  h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+  }
 }
