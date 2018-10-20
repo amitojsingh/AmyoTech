@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR|Quattrocento+Sans');
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-@import url('https://fonts.googleapis.com/css?family=Alice');
-@import url('https://fonts.googleapis.com/css?family=Dosis');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Noto+Serif+KR|Oswald|Raleway');
 table {
   border-spacing: 0;
   margin: 50px;
@@ -102,7 +97,7 @@ li a:hover {
 }
 
 .webd {
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .and {
