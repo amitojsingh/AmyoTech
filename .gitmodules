@@ -1,0 +1,3 @@
+[submodule "maxima"]
+	path = maxima
+	url = https://github.com/amitojsingh/maxima
